@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人自我介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", "PingFang SC", sans-serif;
+        }
+        body {
+            background-color: #f2f4f7;
+            color: #2d3748;
+            line-height: 1.7;
+            padding: 15px;
+        }
+        .card {
+            max-width: 780px;
+            margin: 40px auto;
+            background: #ffffff;
+	border-radius: 22px;
+            padding: 35px 40px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+            transition: all 0.4s ease;
+        }
+        .card:hover {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transform: translateY(-3px);
+        }
+        .avatar-box {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+        .avatar-box img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #f0f7ff;
+            box-shadow: 0 3px 15px rgba(52, 152, 219, 0.15);
+        }
+        .name {
+            text-align: center;
+            font-size: 27px;
+            font-weight: bold;
+            color: #1a2b48;
+            margin-bottom: 8px;
+        }
+        .identity {
+            text-align: center;
+            font-size: 15px;
+            color: #64748b;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .module {
+            margin: 24px 0;
+        }
+        .module h2 {
+            font-size: 18px;
+            color: #2563eb;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+        }
+        .module h2::before {
+            content: "";
+            width: 4px;
+            height: 19px;
+            background: #2563eb;
+            border-radius: 2px;
+        }
+        .module p {
+            font-size: 15px;
+            color: #475569;
+            text-indent: 2em;
+            line-height: 1.8;
+        }
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0;
+        }
+        .tag-list li {
+            list-style: none;
+            background: #eff6ff;
+            color: #1e40af;
+            padding: 7px 14px;
+            border-radius: 25px;
+            font-size: 14px;
+        }
+        .contact {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #f1f5f9;
+            text-align: center;
+        }
+        .contact p {
+            font-size: 15px;
+            color: #64748b;
+            margin: 7px 0;
+        }
+        @media (max-width: 768px) {
+            .card {
+                padding: 25px 20px;
+                margin: 20px auto;
+            }
+            .avatar-box img {
+                width: 140px;
+                height: 140px;
+            }
+            .name {
+                font-size: 24px;
+            }
+            .module p {
+                text-indent: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar-box">
+            <img src="tos-cn-i-0813c001_owAIAEjA7yDESA7fDAshBeJLeTsDBEFWaJbBuR~tplv-8yspqt5zfm-300x300.webp" alt="个人头像">
+        </div>
+
+        <div class="name">你的名字</div>
+        <div class="identity">你的职业 / 身份 ｜ 个人标签：积极向上 · 踏实努力 · 持续成长</div>
+
+        <div class="module">
+            <h2>关于我</h2>
+            <p>大家好！我是一个热爱生活、对待事情认真负责的人，拥有积极乐观的心态和较强的责任心。不管是学习还是做事，我始终保持踏实进取的态度，乐于接受新的知识和挑战，不断完善自我。性格随和友善，善于沟通协作，既能独立高效完成任务，也能很好的融入团队并肩前行。</p>
+        </div>
+
+        <div class="module">
+            <h2>我的优势与技能</h2>
+            <ul class="tag-list">
+                <li>扎实的专业能力</li>
+                <li>良好的沟通表达</li>
+                <li>快速自主学习能力</li>
+                <li>认真细致 责任心强</li>
+                <li>优秀的团队协作</li>
+                <li>抗压能力强 积极乐观</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>联系方式</h2>
+            <p>📞 手机号码：188 5386 8116</p>
+            <p>📧 电子邮箱：lleve5@outlook.com</p>
+            <p>📍 所在城市：中国 · 山东省 · 泰安市</p>
+        </div>
+    </div>
+</body>
+</html>
